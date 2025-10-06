@@ -1,0 +1,26 @@
+{
+  "name": "mystical-monsters-rewards-api",
+  "version": "1.0.0",
+  "description": "Rewards API for Mystical Monsters card game - distributes rewards based on player XP milestones",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'No build step required'"
+  },
+  "keywords": ["rewards", "api", "firebase", "express"],
+  "author": "Mystical Monsters Team",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^12.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
